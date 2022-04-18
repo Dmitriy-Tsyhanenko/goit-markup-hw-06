@@ -523,8 +523,75 @@ img {
 .social-list-footer:focus .footer-network-item {
   fill: var(--text-and-background-color);
 }
-/* КОНЕЦ СЕКЦИИ ПОДВАЛ, НАЧАЛО СЕКЦИИ ПОРТФОЛИО, КНОПКИ*/
 
+/* ПОДПИСАТЬСЯ */
+
+.newsletter-subscription {
+  display: block;
+  margin-left: 93px;
+}
+.newsletter-subscription-footer {
+  display: flex;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.4px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: var(--text-and-background-color);
+
+}
+.newsletter-subscription-footer-input {
+  display: flex;
+}
+.input-footer {
+  margin-bottom: 20px;
+  padding-left: 16px;
+  width: 358px;
+  height: 50px;
+  background-color: #2F303A;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+
+.input-footer::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+/* КНОПКА */
+.newsletter-subscription-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  margin-left: 12px;
+  font-family: var(--primary-font-family);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  border-style: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: var(--text-and-background-color);
+  background: var(--accent-collor);
+}
+.button-svg-text {
+  padding-right: 10px;
+}
+.button-svg {
+  width: 24px;
+  height: 24px;
+}
+/* КОНЕЦ КНОПКИ */
+/* КОНЕЦ СЕКЦИИ ПОДВАЛ, НАЧАЛО СЕКЦИИ ПОРТФОЛИО, КНОПКИ*/
 .button-list {
   font-family: var(--primary-font-family);
   font-weight: 500;
