@@ -528,28 +528,42 @@
             <use href="./images/svg/sprite.svg#close-icon"></use>
           </svg>
         </button>
-        <b>Оставьте свои данные, мы вам перезвоним</b>
+        <b class="contact-form-section">Оставьте свои данные, мы вам перезвоним</b>
         <form class="contact-form"></form>
 
-        <label class="contact-form-field" id="text">Имя</label>
+        <label class="contact-form-field" id="text"
+          ><span class="contact-form-text">Имя</span></label
+        >
         <div class="contact-forminput-wrapper">
           <input name="user-name" class="contact-form-input" type="text" required />
-          <span class="contact-form-icon"></span>
+          <svg class="contact-form-icon" width="18" height="18">
+            <use href="./images/svg/sprite.svg#icon-person-1"></use>
+          </svg>
         </div>
 
-        <label for="tel" class="contact-form-field">Телефон</label>
+        <label for="tel" class="contact-form-field"
+          ><span class="contact-form-text">Телефон</span></label
+        >
         <div class="contact-forminput-wrapper">
           <input name="user-phone" class="contact-form-input" type="tel" id="tel" required />
-          <span class="contact-form-icon"></span>
+          <svg class="contact-form-icon" width="18" height="18">
+            <use href="./images/svg/sprite.svg#icon-phone-1"></use>
+          </svg>
         </div>
 
-        <label for="email" class="contact-form-field">Почта</label>
+        <label for="email" class="contact-form-field"
+          ><span class="contact-form-text">Почта</span></label
+        >
         <div class="contact-forminput-wrapper">
           <input name="user-mail" class="contact-form-input" type="email" id="email" required />
-          <span class="contact-form-icon"></span>
+          <svg class="contact-form-icon" width="18" height="18">
+            <use href="./images/svg/sprite.svg#icon-email-1"></use>
+          </svg>
         </div>
 
-        <label for="user-comments" class="contact-form-field">Комментарий</label>
+        <label for="user-comments" class="contact-form-field"
+          ><span class="contact-form-text">Комментарий</span></label
+        >
         <textarea
           name="user-comments"
           class="contact-form-message"
